@@ -10,22 +10,24 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Fira+Sans:wght@300;400&display=swap" rel="stylesheet"> 
        <link type="text/css" rel="stylesheet" href="css/style.css">
+       <link type="text/css" rel="stylesheet" href="css/jquery.fancybox.css">
+       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="js/jquery.fancybox.js"></script>
    </head>
    <body>
       <div id="content">
-         <h1>Hi I'm Jake Smith</h1>
+         <h1>Jake Smith</h1>
         
-          <p>I love to make great looking content for the internet.<br> 
-            I'm a front end developer and interface designer with experience in photography and film.<br>
-          Im based in Melbourne, Australia and have over 10 years experience in design and development.<br>
-         I recently co-founded <a href="digitalheritageaustralia.com">Digital Heritage Australia.</a></p>
-          <p>I'm currently looking for work so shoot me an <a href="mailto:mail@jakethesmith.com" target="_blank">email</a>.</p>
+          <p>Front end developer, interface designer and all round tinkerer.<br>
+          Im based in Melbourne, Australia and have over 10 years experience in web design and development.<br>
+        A few years ago I co-founded <a href="digitalheritageaustralia.com">Digital Heritage Australia.</a></p>
+          <p>Currently looking for partime work so shoot me an <a href="mailto:mail@jakethesmith.com" target="_blank">email</a>.</p>
           <h2>Select Works</h2>
           
          <section class="cards">
                 
                 <article class="card">
-                    <a href="#">
+                   <a data-fancybox data-src="#hidden-dha" href="javascript:;">
                         <picture class="thumbnail">
                             <img src="img/dha.png" alt="">
                         </picture>
@@ -37,20 +39,42 @@
                     </a>
                 </article><!-- .card -->
 
+   <div style="display: none;" id="hidden-dha">
+	<h3>Digital Heritage Australia</h3>
+	<p>In 2015 I co-founded Digital Heritage Australia, I am 
+the principal designer and web developer and have 
+been responsible for the concept creation and delivery 
+of a variety of projects. I’ve been fortunate enough to 
+work for clients such as Melbourne Water, The National 
+Trust, The University of Melbourne, Parks Victoria, The 
+NFSA, and Open House Melbourne.</p>
+    <img src="img/dhafull.png" alt="">
+   </div>
+             
                 <article class="card">
-                    <a href="#">
+                    <a data-fancybox data-src="#hidden-mamma" href="javascript:;">
                         <picture class="thumbnail">
                             <img src="img/lamama.png" alt="">
                         </picture>
                         <div class="card-content">
                             <h2>La Mama</h2>
-                           <p>Design, Devlopment, Branding &amp; Film</p>
+                            <p>Design, Devlopment, Branding &amp; Film</p>
                         </div><!-- .card-content -->
                     </a>
                 </article><!-- .card -->
 
+   <div style="display: none;" id="hidden-mamma">
+	<h3>La Mama</h3>
+	<p>As part of an ongoing series of projects with The 
+University of Melbourne, La Mama provided me an 
+exciting opportunity to design a media-rich 
+website using archival material, video, and 
+responsive web technologies to present a curated 
+history of the theatre.</p>
+    <img src="img/lamama.png" alt="">
+   </div>    
                 <article class="card">
-                    <a href="#">
+                    <a data-fancybox data-src="#hidden-port" href="javascript:;">
                         <picture class="thumbnail">
                              <img src="img/port.png" alt="">
                         </picture>
@@ -61,18 +85,79 @@
                     </a>
                 </article><!-- .card -->
 
+   <div style="display: none;" id="hidden-port">
+	<h3>Captain Mills Cottage</h3>
+	<p>You are awesome.</p>
+    <img src="img/dha.png" alt="">
+   </div>
                 <article class="card">
-                    <a href="#">
+                    <a data-fancybox data-src="#hidden-wom" href="javascript:;">
                         <picture class="thumbnail">
                             <img src="img/wom.png" alt="">
                         </picture>
                         <div class="card-content">
-                            <h2>The Women’s Mural Documentation Project</h2>
+                            <h2>The Digital Woman’s Mural: A virtual Tour</h2>
+                           <p>Design, Devlopment &amp; Photography</p>
+                        </div><!-- .card-content -->
+                    </a>
+                </article><!-- .card -->
+             
+   <div style="display: none;" id="hidden-wom">
+	<h3>The Digital Woman’s Mural: A virtual Tour</h3>
+	<p>In collaboration with The Women’s Mural 
+Documentation Project and Her Place Women’s 
+Museum Australia, This virtual mural pays homage 
+to the history of the now-demolished Women's 
+Mural: Bomboniere to Barbed Wire. By stitching 
+archival photographs together I was able to 
+digitally restore the mural and place it back onto 
+the streetscape. The project combines panoramic 
+photography archival images and audio interviews.</p>
+    <img src="img/wom.png" alt="">
+   </div>      
+              <article class="card">
+                     <a data-fancybox data-src="#hidden-wwii" href="javascript:;">
+                        <picture class="thumbnail">
+                            <img src="img/wwii.png" alt="">
+                        </picture>
+                        <div class="card-content">
+                            <h2>WWII at Home</h2>
                            <p>Design, Devlopment, Branding &amp; Film</p>
                         </div><!-- .card-content -->
                     </a>
                 </article><!-- .card -->
-
+             
+<div style="display: none;" id="hidden-wwii">
+	<h3>WWII at Home: Response, Reflection &amp; Rejuvenation</h3>
+	<p>In collaboration with The National Trust of Australia 
+and Open House Melbourne, I produced a website 
+that illustrates the themes of response, reflection, 
+and rejuvenation that emerged from developments 
+during World War II. Using a combination of 
+research, video production, photography, 
+development, drone footage, and archival material I 
+was able to provide a variety of imagery to 
+represent the project’s themes and delivered a 
+product that exceeded expectations.</p>
+    <img src="img/wwiifull.png" alt="">
+   </div>
+              <article class="card">
+                  <a data-fancybox data-src="#hidden-exemp" href="javascript:;">
+                        <picture class="thumbnail">
+                            <img src="img/exemp.png" alt="">
+                        </picture>
+                        <div class="card-content">
+                            <h2>The History of Aboriginal Exemption</h2>
+                           <p>Design, Devlopment, Branding &amp; Film</p>
+                        </div><!-- .card-content -->
+                    </a>
+                </article><!-- .card -->
+             
+ <div style="display: none;" id="hidden-exemp">
+	<h3>The History of Aboriginal Exemption</h3>
+	<p>This website has information about the history of exemption, gathered through an Australian Research Council-funded project based at the University of Melbourne.</p>
+    <img src="img/empempfull.png" alt="">
+</div>
             </section><!-- .cards -->
       </div>
       <div id="container"></div>
@@ -101,11 +186,10 @@
          
          	scene = new THREE.Scene();
          	scene.background = new THREE.Color( '#ffffff' );
-         	scene.fog = new THREE.FogExp2( '#ffffff', 0.0035 );
-         
+         	scene.fog = new THREE.FogExp2( '#ffffff', 0.00211 );
          	const data = generateHeight( worldWidth, worldDepth );
          
-         	camera.position.set( 1100, 670, - 500 );
+         	camera.position.set( 1110, 320, - 1 );
          	camera.lookAt( - 100, 110, - 800 );
          
          	const geometry = new THREE.PlaneGeometry( 7500, 7500, worldWidth - 1, worldDepth - 1 );
@@ -132,8 +216,8 @@
          	container.appendChild( renderer.domElement );
          
          	controls = new FirstPersonControls( camera, renderer.domElement );
-         	controls.movementSpeed = 55;
-         	controls.lookSpeed = 0.005;
+         	controls.movementSpeed = 15;
+         	controls.lookSpeed = 0.001;
          
          	
          
@@ -160,7 +244,7 @@
          	let seed = Math.PI / 4;
          	window.Math.random = function () {
          
-         		const x = Math.sin( seed ++ ) * 10005;
+         		const x = Math.sin( seed ++ ) * 10205;
          		return x - Math.floor( x );
          
          	};
@@ -201,7 +285,7 @@
          	canvas.height = height;
          
          	context = canvas.getContext( '2d' );
-         	context.fillStyle = '#000';
+         	context.fillStyle = '#ffffff';
          	context.fillRect( 0, 0, width, height );
          
          	image = context.getImageData( 0, 0, canvas.width, canvas.height );
