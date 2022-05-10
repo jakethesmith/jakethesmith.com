@@ -162,8 +162,18 @@ img {
     margin-bottom: 0;
 	padding: 0;	
     line-height: 1em;
-    
+    border-bottom: 3px solid transparent;
+transition: border-bottom 0.3s, color 0.5s;
 }
+
+.card h2:hover {color: #000;
+pointer-events: all;
+text-decoration: none;
+font-weight: 400;
+border-bottom: 3px solid #fdb813;
+transition: border-bottom 0.3s, color 0.5s;
+display: inline-block;
+line-height: 0.8;}
 
 .card a {
 	color: black;
