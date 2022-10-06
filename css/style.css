@@ -53,7 +53,10 @@ body::-webkit-scrollbar {
   -o-animation: fadein 2s; /* Opera < 12.1 */
   animation: fadein 2s;
 }
-
+::selection {
+  color: black;
+  background: #fdb813;
+}
 @keyframes fadein {
   from {
     opacity: 0;
