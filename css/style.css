@@ -45,7 +45,6 @@ body::-webkit-scrollbar {
   top: 15%;
   display: block;
   z-index: 2;
-  pointer-events: none;
   padding-bottom: 10%;
 
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
