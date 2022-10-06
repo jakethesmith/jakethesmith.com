@@ -103,9 +103,7 @@ body::-webkit-scrollbar {
     opacity: 1;
   }
 }
-#content h1 p {
-  mix-blend-mode: exclusion;
-}
+
 h1 {
   font-family: "Barlow Condensed", sans-serif;
   font-size: 3rem;
