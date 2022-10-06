@@ -54,8 +54,8 @@ body::-webkit-scrollbar {
   animation: fadein 2s;
 }
 ::selection {
-  color: black;
-  background: #fdb813;
+  color: #fdb813;
+  background: black;
 }
 @keyframes fadein {
   from {
